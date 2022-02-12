@@ -1,4 +1,62 @@
-.App {
+@font-face {
+  font-family: "Gilroy"; 
+  src: url("./fonts/Gilroy-Thin.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family: "Gilroy-Regular"; 
+  src: url("./fonts/Gilroy-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family: "Gilroy-Medium"; 
+  src: url("./fonts/Gilroy-Medium.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family: "Gilroy-Light"; 
+  src: url("./fonts/Gilroy-Light.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family: "NotoSerif-Regular"; 
+  src: url("./fonts/NotoSerif-Regular.ttf") format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family: "NotoSerif-Bold"; 
+  src: url("./fonts/NotoSerif-Bold.ttf") format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family: "NotoSerif-Italic"; 
+  src: url("./fonts/NotoSerif-Italic.ttf") format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family: "NotoSerif-BoldItalic"; 
+  src: url("./fonts/NotoSerif-BoldItalic.ttf") format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+*{
+  margin: unset;
+  padding: unset;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +93,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
